@@ -3,6 +3,7 @@
     "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "ethers": "^6.3.0",
     "fs-extra": "^11.1.1"
   },
